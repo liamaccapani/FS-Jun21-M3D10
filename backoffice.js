@@ -5,6 +5,8 @@ const btn = document.getElementById('submit--btn')
 // const category = document.getElementById('category')
 // const imageUrl = document.getElementById('imageUrl')
 
+// const id = new URLSearchParams(window.location.search).get(movieId)
+// console.log(id)
 
 const formHandler = (ev) => {
     ev.preventDefault()
@@ -33,6 +35,13 @@ const formHandler = (ev) => {
     })
 }
 
+
+
+
+
+
+
+//✨ ASYNC AWAIT
 // const formHandler = async (ev) => {
 //     ev.preventDefault()
 
