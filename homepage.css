@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body{
+    background-color: #141515;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav a{
+    color: inherit;
+}
+footer{
+    color: #808080;
+    font-size: small;
+}
+@media (min-width: 576px) {
+  .netflix-logo {
+    max-height: 40px;
+  }
+}
+
+.page-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#dropdownMenu2 {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.netflix-logo {
+  position: absolute;
+}
+
+footer a:link{
+    color: #9e9e9e;
+    text-decoration: none;
+} 
+footer a:hover{
+    color: #c4c4c4;
+}
+footer a:visited{
+    color: #9e9e9e;
+}
+footer button{
+    background-color: #141515;
+    color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+    padding: 0.25rem 0.5rem;
+    transition-duration: 0.4s;
+}
+footer button:hover{
+    background-color: #c4c4c4; /* Green */
+    color: black;
+}
+.footer-icons{
+    margin-right: 1rem;
+}
